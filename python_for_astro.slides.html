@@ -264,7 +264,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Outline">Outline<a class="anchor-link" href="#Outline">&#182;</a></h1><h3 id="Less-App-Dev,-More-Analysis">Less App Dev, More Analysis<a class="anchor-link" href="#Less-App-Dev,-More-Analysis">&#182;</a></h3><h3 id="A-Brief-Survey-of-Astrophysics">A Brief Survey of Astrophysics<a class="anchor-link" href="#A-Brief-Survey-of-Astrophysics">&#182;</a></h3><h3 id="Time-Series-Analysis">Time Series Analysis<a class="anchor-link" href="#Time-Series-Analysis">&#182;</a></h3><h3 id="Use-case:-Catching-Stellar-Flares">Use case: Catching Stellar Flares<a class="anchor-link" href="#Use-case:-Catching-Stellar-Flares">&#182;</a></h3><h3 id="Stellar-Classification">Stellar Classification<a class="anchor-link" href="#Stellar-Classification">&#182;</a></h3><h3 id="Use-case:-Finding-RR-Lyrae">Use case: Finding RR Lyrae<a class="anchor-link" href="#Use-case:-Finding-RR-Lyrae">&#182;</a></h3><h3 id="Mapping-the-Sky">Mapping the Sky<a class="anchor-link" href="#Mapping-the-Sky">&#182;</a></h3><h3 id="Use-case:-Thousands-of-Galaxies,-Billions-of-Years">Use case: Thousands of Galaxies, Billions of Years<a class="anchor-link" href="#Use-case:-Thousands-of-Galaxies,-Billions-of-Years">&#182;</a></h3><h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3>
+<h1 id="Outline">Outline<a class="anchor-link" href="#Outline">&#182;</a></h1><h3 id="Less-App-Dev,-More-Analysis">Less App Dev, More Analysis<a class="anchor-link" href="#Less-App-Dev,-More-Analysis">&#182;</a></h3><h3 id="A-Brief-Survey-of-Astrophysics">A Brief Survey of Astrophysics<a class="anchor-link" href="#A-Brief-Survey-of-Astrophysics">&#182;</a></h3><h3 id="Time-Series-Analysis">Time Series Analysis<a class="anchor-link" href="#Time-Series-Analysis">&#182;</a></h3><h3 id="Use-case:-Catching-Stellar-Flares">Use case: Catching Stellar Flares<a class="anchor-link" href="#Use-case:-Catching-Stellar-Flares">&#182;</a></h3><h3 id="Object-Classification">Object Classification<a class="anchor-link" href="#Object-Classification">&#182;</a></h3><h3 id="Use-case:-Finding-RR-Lyrae">Use case: Finding RR Lyrae<a class="anchor-link" href="#Use-case:-Finding-RR-Lyrae">&#182;</a></h3><h3 id="Mapping-the-Sky">Mapping the Sky<a class="anchor-link" href="#Mapping-the-Sky">&#182;</a></h3><h3 id="Use-case:-Thousands-of-Galaxies,-Billions-of-Years">Use case: Thousands of Galaxies, Billions of Years<a class="anchor-link" href="#Use-case:-Thousands-of-Galaxies,-Billions-of-Years">&#182;</a></h3><h3 id="Summary">Summary<a class="anchor-link" href="#Summary">&#182;</a></h3>
 </div>
 </div>
 </div></section></section><section><section>
@@ -995,7 +995,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -1246,8 +1246,17 @@ a.anchor-link {
 <h1 id="And-so,-so-much-more">And so, so much more<a class="anchor-link" href="#And-so,-so-much-more">&#182;</a></h1><h3 id="Not-just-direct-science!">Not just direct science!<a class="anchor-link" href="#Not-just-direct-science!">&#182;</a></h3><ul>
 <li>Astronomers use Python to help aim telescopes</li>
 <li>Example: The Large Synoptic Survey Telescope
-<img src='' /></li>
+<img src='lsst.jpg' /></li>
 </ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Not-just-observations!">Not just observations!<a class="anchor-link" href="#Not-just-observations!">&#182;</a></h3><ul>
 <li>Python backends on sites like:<ul>
 <li><a href="http://spaceprob.es/">SPACEPROB.ES</a></li>
@@ -1270,7 +1279,7 @@ a.anchor-link {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">timedelta</span>
@@ -1286,7 +1295,7 @@ a.anchor-link {
         <span class="k">return</span> <span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">                &lt;iframe width=&quot;</span><span class="si">%i</span><span class="s2">&quot; height=&quot;</span><span class="si">%i</span><span class="s2">&quot;</span>
 <span class="s2">                    src=&quot;http://www.youtube.com/embed/</span><span class="si">%s</span><span class="s2">?start=</span><span class="si">%i</span><span class="s2">&quot;</span>
-<span class="s2">                    frameborder=&quot;0&quot; allowfullscreen&gt;</span>
+<span class="s2">                    frameborder=&quot;0&quot; allowfullscreen style=&#39;margin: auto;&#39;&gt;</span>
 <span class="s2">                &lt;/iframe&gt;</span>
 <span class="s2">               &quot;&quot;&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">height</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">start</span><span class="p">)</span>
 </pre></div>
@@ -1298,7 +1307,7 @@ a.anchor-link {
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">YouTubeVideo</span><span class="p">(</span><span class="s2">&quot;_DnDeBa0KFc&quot;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">450</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">timedelta</span><span class="p">(</span><span class="n">hours</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">minutes</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">seconds</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
@@ -1312,13 +1321,13 @@ a.anchor-link {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[20]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[22]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
                 <iframe width="800" height="450"
                     src="http://www.youtube.com/embed/_DnDeBa0KFc?start=0"
-                    frameborder="0" allowfullscreen>
+                    frameborder="0" allowfullscreen style='margin: auto;'>
                 </iframe>
                
 </div>
